@@ -14,9 +14,7 @@ int main()
                "pppppppp",
                "rheqkehr"};
     for (int i = 0; i < SIZE; i++) {
-        for (int j = 0; j < SIZE; j++)
-            ; j++)
-        {
+        for (int j = 0; j < SIZE; j++) {
             printf("%c", chessboard[i][j]);
         }
         printf("\n");
