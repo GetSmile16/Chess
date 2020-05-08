@@ -5,14 +5,14 @@
 int main()
 {
     char chessboard[SIZE][SIZE]
-            = {"RHEQKEHR",
-               "PPPPPPPP",
-               "        ",
-               "        ",
-               "        ",
-               "        ",
+            = {"rnbqkbnr",
                "pppppppp",
-               "rheqkehr"};
+               "        ",
+               "        ",
+               "        ",
+               "        ",
+               "PPPPPPPP",
+               "RNBQKBNR"};
     for (int i = 0; i < SIZE; i++) {
         for (int j = 0; j < SIZE; j++) {
             printf("%c", chessboard[i][j]);
